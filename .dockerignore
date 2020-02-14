@@ -1,0 +1,12 @@
+# Ignore folders 
+DataBase
+node_modules
+.vscode
+.git
+src
+
+# Ignore files
+.gitignore
+docker-compose
+Dockerfile
+tsconfig.json

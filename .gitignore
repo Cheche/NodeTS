@@ -1,0 +1,6 @@
+# Ignore Folders
+DataBase
+node_modules
+dist
+
+# Ignore files
