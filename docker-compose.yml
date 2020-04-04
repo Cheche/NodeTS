@@ -4,7 +4,7 @@ services:
   app_node:
     container_name: nodeTS-app
     # command: 'npm run dev'
-    command: /bin/sh -c "npm install --quiet  && npm install -D --quiet && npm run dev"
+    command: /bin/sh -c "npm install --quiet  && npm install -D --quiet && npm run build && npm run dev"
     build:
       context: .
       dockerfile: Dockerfile
